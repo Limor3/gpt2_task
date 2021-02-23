@@ -2,11 +2,14 @@
 <html>
 <body>
 
-<form action="/action_page.php">
-  <label for="sentence">Enter Sentence: </label>
-  <input type="text" id="sentence" name="sentence"><br>
-  <input type="submit" value="Submit">
+<form action="{{ url_for('my_form_post') }}" method="post">
+    <label for="sentence">Enter Sentence: </label>
+    <input type="text" id="sentence" name="sentence"><br>
+    <input type="submit" value="Submit">
 </form>
 
 </body>
 </html>
+
+
+
