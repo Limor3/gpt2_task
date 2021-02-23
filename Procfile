@@ -1,1 +1,1 @@
-web: gunicorn gpt2_limor_nunu:app
+web: gunicorn gpt2_deploy:app
